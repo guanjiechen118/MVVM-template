@@ -1,0 +1,32 @@
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    color: #989c9b;
+}
+
+h2 {
+    text-align:center;
+    font-weight: 600;
+    margin: 0;
+    color: black;
+}
+
+.team {
+    border-collapse: collapse;
+    width: 100%;
+    background: #79d2b0;
+    text-align:center;
+}
+p {
+    text-align:center;
+    font-size: x-large;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+
+button {
+	border-bottom: 1px solid #009688;
+	outline: auto;
+	background: #44a2c7;
+	position:relative
+}

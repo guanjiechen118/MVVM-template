@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVVM demo</title>
+    <script src="../dist/MVVM.js"></script>
+    <link href="demo.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <div id="app1">
+        <div class="team">
+        <h2>This is Two way binding</h2>
+        <p>{{msg+'---'+"Typescript"}}</p>
+        <p v-text="msg"></p>
+        <p>在下方输入，上方两行话都会随之改变</p>
+        <input type="text" v-model="msg">
+        </div>
+        <br>
+        <br>
+        <div class="team">
+        <h2>This is single way binding</h2>
+        <p>{{num+'---'+"is my favorate number"}}</p>
+        </div>
+        <br>
+        <br>
+        <div class="team">
+        <h2>This is method binding</h2>
+        <br>
+        <button @click="handleClick">click this ,my favorate num will change!</button>
+        </div>
+    </div>
+    <script>
+        var vm = new Vue({
+            el: "#app1",
+            data: {
+                msg: "hello world",
+                num: 118
+            },
+            methods: {
+                handleClick: function () {
+                    this.$data.num+=1
+                    console.log('handleClicked');
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
