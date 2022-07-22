@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 简单的 MVVM 模型
 
 **姓名：陈冠杰**
@@ -93,3 +94,15 @@ npm install --save-dev ts-loader
 https://github.com/Fhasghrge/mvvmFramework/blob
 
 借鉴了部分代码和大体思路，在模块划分和部分实现方法上有借鉴，可能会有相似之处。
+=======
+# 结课作业提交仓库
+
+姓名：
+学校：
+专业：
+年级：
+QQ：
+
+- 提交方式
+fork 本仓库提交你的代码即可
+>>>>>>> 331b7845a328af35bc9df7647e1d597d2ae5863b
