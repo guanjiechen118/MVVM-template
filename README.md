@@ -1,8 +1,29 @@
 # 简单的 MVVM 模型
 
 
+## 1.安装支持库:
+### 安装 typescript
+```python
+#check first
+tsc -v
+Version 3.x.x
+#this is okk,else do follow steps
+npm instal -g typescript 
+```
+### 安装webpack
 
-## 1.编译步骤：
+```python
+npm install --save-dev webpack webpack-cli
+```
+### 安装ts-loader
+```python
+npm install --save-dev ts-loader
+```
+依赖的工具包安装完成
+
+---
+
+## 2.编译步骤：
 本模型使用`typeScript`编写，使用webpack打包，在编译ts文件时，需要在`shell`中执行以下步骤:
 ```shell
 1.cd ...\MVVM
@@ -16,7 +37,7 @@
 
 ---
 
-## 1.项目简介
+## 3.项目简介
 本项目使用`TypeScript`完成了一个简单的MVVM框架
 实现以下功能：
 
@@ -54,7 +75,7 @@
 ---
 
 
-## 3.参考
+## 4.参考
 本项目借鉴下面仓库中的代码：
 https://github.com/Fhasghrge/mvvmFramework/blob
 
